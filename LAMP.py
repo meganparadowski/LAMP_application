@@ -32,7 +32,7 @@ print("<!DOCTYPE html>")
 print("<html>")
 print("<head>")
 print("<title>LAMP Exercise: Python and MySQL</title>")
-print('''<link href="Assignment7.css" rel="stylesheet" type="text/css"/>''')
+print('''<link href="app.css" rel="stylesheet" type="text/css"/>''')
 print("</head>")
 print("<body>")
 
