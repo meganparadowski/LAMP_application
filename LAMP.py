@@ -4,6 +4,7 @@ import cgitb
 cgitb.enable()
 import pymysql
 import os
+#the following line imports the developer's credentials. I have not included my credentials program in this repository.
 from credentials import * 
 
 form = cgi.FieldStorage()
