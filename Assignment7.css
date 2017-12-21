@@ -1,0 +1,32 @@
+body {
+	background-color:lightblue;
+	font-family:arial;
+	}
+
+th {
+    height: 100px;
+    font-size:20px;
+    border:1px black;
+}
+
+table {
+	border-collapse:collapse;
+	}
+	
+table, tr, th, td {
+	border:1px solid black;
+	text-align:center;
+	padding:20px;
+	}
+
+a:link {
+	color:black;
+	}
+	
+a:hover {
+    color:red;
+}
+
+a:visited {
+	color:white;
+	}

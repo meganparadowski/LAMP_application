@@ -1,0 +1,47 @@
+<html>
+<!-- explain the stuff u need to explain
+-->
+
+<head>
+<link rel="stylesheet" type="text/css" href="Assignment7.css"/>
+<title>Assignment 7</title>
+</head>
+
+<body>
+
+<p>This system is meant to replicate what a hospital database might look like. The data
+is strictly test data (made up data). The SQL script to create the tables was forward
+engineered on MySQL Workbench and populated with insert queries. There are tables for 
+patients, doctors, emergency contacts, doctor images, doctor profiles, and room numbers and locations. 
+For a fully functioning hospital database we would also need patients' medical histories, supply inventory, nurses,
+security, equipment and usage, etc. This is a user-based system. This particular query
+allows you to see a list of patients with their hospital room number, emergency contact, doctor, the doctor's image,
+and a link to the doctor's profile. </p>
+<hr />
+
+<form method="POST" action="Assignment7.py">
+	
+	<p>What would you like to sort by?</p>
+	<select name="sort">
+		<option value="patient_name">Patient</option>
+		<option value="doctor_name">Doctor</option>
+		<option value="ec_name">Emergency Contact</option>
+	</select>
+	
+	<p>How many records would you like to see?</p>
+	<select name="quantity">
+		<option value="3">3</option>
+		<option value="6">6</option>
+		<option value="9">9</option>
+		<option value="12">12</option>
+	</select>
+	
+	<hr/>
+	
+	<input type="submit" value="Submit">
+	<input type="reset" value="Cancel">
+	
+</form>
+
+</body>
+</html>
